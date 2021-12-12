@@ -56,6 +56,20 @@ body{
 }
 
 /*===============-_INFO_-==================*/
+#info {
+  display: flex;
+}
+
 #info .info-text{
-  
+
+}
+
+#info .info-img{
+
+}
+
+#info .info-img img{
+  width: 15.1rem;
+  height: 15.1rem;
+  border-radius: 50%;
 }
