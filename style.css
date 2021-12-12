@@ -7,6 +7,11 @@
 
 body{
   font-family: 'Heebo', sans-serif;
+  
+}
+
+.grid{
+  margin-left: 9.25rem ;
 }
 
 /*===============-_NAV_-==================*/
@@ -42,5 +47,15 @@ body{
 
 #nav .navigation ul li a{
   text-decoration: none;
+  color: #7A7A7A;
 
+}
+
+#nav .navigation ul li a:hover{
+  color:black
+}
+
+/*===============-_INFO_-==================*/
+#info .info-text{
+  
 }
