@@ -1,0 +1,46 @@
+/*===============-_RESET_-==================*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Heebo', sans-serif;
+}
+
+/*===============-_NAV_-==================*/
+#nav .line1 , .line2{
+  height: 19px;
+  width: 100%;
+}
+
+#nav .line1{
+  background-color: #646464;
+}
+
+#nav .line2{
+  background-color: #9F9F9F;
+}
+
+#nav .navigation{
+  background-color: #F3F3F3;
+  height: 4rem;
+}
+
+#nav .navigation ul{
+  display: flex;
+  justify-content: end;
+  margin-right: 8.1rem;
+  list-style: none;
+}
+
+#nav .navigation ul li{
+  margin-right: 4rem;
+  margin: 1.3rem;
+}
+
+#nav .navigation ul li a{
+  text-decoration: none;
+
+}
