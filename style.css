@@ -1,58 +1,57 @@
 /*===============-_RESET_-==================*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Heebo', sans-serif;
-  
 }
 
-.grid{
-  margin-left: 9.25rem ;
+.grid {
+  margin-left: 9.25rem;
 }
 
 /*===============-_NAV_-==================*/
-#nav .line1 , .line2{
+#nav .line1,
+.line2 {
   height: 19px;
   width: 100%;
 }
 
-#nav .line1{
+#nav .line1 {
   background-color: #646464;
 }
 
-#nav .line2{
-  background-color: #9F9F9F;
+#nav .line2 {
+  background-color: #9f9f9f;
 }
 
-#nav .navigation{
-  background-color: #F3F3F3;
+#nav .navigation {
+  background-color: #f3f3f3;
   height: 4rem;
 }
 
-#nav .navigation ul{
+#nav .navigation ul {
   display: flex;
   justify-content: end;
   margin-right: 8.1rem;
   list-style: none;
 }
 
-#nav .navigation ul li{
+#nav .navigation ul li {
   margin-right: 4rem;
   margin: 1.3rem;
 }
 
-#nav .navigation ul li a{
+#nav .navigation ul li a {
   text-decoration: none;
-  color: #7A7A7A;
-
+  color: #7a7a7a;
 }
 
-#nav .navigation ul li a:hover{
-  color:black
+#nav .navigation ul li a:hover {
+  color: black;
 }
 
 /*===============-_INFO_-==================*/
@@ -60,16 +59,39 @@ body{
   display: flex;
 }
 
-#info .info-text{
-
+#info .info-text {
+  margin-top: 8.5rem;
+  margin-right: 7.25rem;
 }
 
-#info .info-img{
-
+#info .info-img {
+  margin-right: 8.5rem;
+  margin-top: 8.06rem;
 }
 
-#info .info-img img{
+#info .info-img img {
   width: 15.1rem;
   height: 15.1rem;
   border-radius: 50%;
+  border: solid 8px #c4c4c4;
+}
+
+ .download{
+  margin-top: 2.9rem;
+}
+
+.btn{
+  width: 12.6rem;
+  height: 2.9rem;
+  background: #787878;
+  border:#787878 ;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background: black;
+  border: black;
+  color: #fff;
 }
