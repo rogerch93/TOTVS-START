@@ -78,6 +78,7 @@ body {
 
  .download{
   margin-top: 2.9rem;
+  margin-bottom: 4.4rem;
 }
 
 .btn{
@@ -94,4 +95,11 @@ body {
   background: black;
   border: black;
   color: #fff;
+}
+
+/*===============-_SKILLS_-==================*/
+#skills{
+  background: #F3F3F3;
+  width: 100%;
+  height: 21.25rem;
 }
