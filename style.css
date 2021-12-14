@@ -111,14 +111,156 @@ body {
 }
 
 #skills .title .soft{
-  margin-right: 20rem;
+  margin-right: 10rem;
+}
+
+  h3{
+  padding: 0.1rem;
 }
 
 #skills .title .hard{
-  margin-left: 20rem;
+  margin-left: 10rem;
 }
 
 #skills .title .divider{
   border: solid 1px;
-  height: 5rem;
+  height: 19.5rem;
+}
+
+/*=====BARRA DE SKILLS ANIMAÇÃO=====*/
+.container{
+  width: 20rem;
+  height: 1.5rem;
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+.container .bar1{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime1 5s normal;
+  width: 100%;
+}
+
+.container .bar2{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime2 5s normal;
+  width: 100%;
+}
+
+.container .bar3{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime3 5s normal;
+  width: 95%;
+}
+
+.container .bar4{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime4 5s normal;
+  width: 75%;
+}
+
+.container .bar5{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime5 5s normal;
+  width: 50%;
+}
+
+.container .bar6{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime6 5s normal;
+  width: 100%;
+}
+
+.container .bar7{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime7 5s normal;
+  width: 90%;
+}
+
+.container .bar8{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime8 5s normal;
+  width: 65%;
+}
+
+.container .bar9{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime9 5s normal;
+  width: 50%;
+}
+
+.container .bar10{
+  height: 1.5rem;
+  background: #000000;
+  border-radius: 5px;
+  animation: anime10 5s normal;
+  width: 35%;
+}
+
+@keyframes anime1{
+  0% {width: 0%;}
+  100%{width: 100%;}
+}
+
+
+@keyframes anime2{
+  0% {width: 0%;}
+  100%{width: 100%;}
+}
+
+@keyframes anime3{
+  0% {width: 0%;}
+  100%{width: 95%;}
+}
+
+@keyframes anime4{
+  0% {width: 0%;}
+  100%{width: 75%;}
+}
+
+@keyframes anime5{
+  0% {width: 0%;}
+  100%{width: 50%;}
+}
+
+@keyframes anime6{
+  0% {width: 0%;}
+  100%{width: 100%;}
+}
+
+@keyframes anime7{
+  0% {width: 0%;}
+  100%{width: 90%;}
+}
+
+@keyframes anime8{
+  0% {width: 0%;}
+  100%{width: 65%;}
+}
+
+@keyframes anime9{
+  0% {width: 0%;}
+  100%{width: 50%;}
+}
+
+@keyframes anime10{
+  0% {width: 0%;}
+  100%{width: 35%;}
 }
