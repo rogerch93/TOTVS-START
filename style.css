@@ -110,10 +110,15 @@ body {
   padding: 1rem;
 }
 
-#skills .soft{
+#skills .title .soft{
   margin-right: 20rem;
 }
 
-#skills .hard{
+#skills .title .hard{
   margin-left: 20rem;
+}
+
+#skills .title .divider{
+  border: solid 1px;
+  height: 5rem;
 }
