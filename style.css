@@ -264,3 +264,25 @@ body {
   0% {width: 0%;}
   100%{width: 35%;}
 }
+
+/*===============-_WORKS_-==================*/
+#works .works-subtitle{
+  margin-top: 1.8rem;
+  text-decoration: underline;
+}
+
+#works .list-works{
+  display: flex;
+}
+
+#works .list-works .work-image{
+  margin-top: 1.3rem;
+}
+
+#works .list-works .work-image a img{
+  width: 15.3rem;
+  height: 11.2rem;
+  border-radius: 10px;
+  box-shadow: 50px -17px 8px -5px #c4c4c4;
+}
+
