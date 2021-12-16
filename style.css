@@ -323,3 +323,26 @@ body {
  justify-content: center;
  align-items: center;
 }
+
+/*===============-_WORKS_-==================*/
+#end{
+  margin-top: 7.6rem;
+  background: #F3F3F3;
+  width: 100%;
+  height: 11.3rem;
+}
+
+#end p{
+  margin: 2rem;
+  text-align: center;
+}
+
+#end .networking{
+  display: flex;
+  justify-content: center;
+}
+
+#end .networking a{
+  margin-top: 3.3rem;
+  margin-left: 2rem;
+}
