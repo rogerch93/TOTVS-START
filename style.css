@@ -346,3 +346,8 @@ body {
   margin-top: 3.3rem;
   margin-left: 2rem;
 }
+
+/*===============-_DATA-ANIMATIONSjs_-==================*/
+[data-animation]{
+  opacity: 1;
+}
