@@ -14,7 +14,6 @@ body {
   margin-right: 9.25rem;
 }
 
-
 /*===============-_NAV_-==================*/
 #nav .line1,
 .line2 {
@@ -78,65 +77,65 @@ body {
   border: solid 8px #c4c4c4;
 }
 
- .download{
+.download {
   margin-top: 2.9rem;
   margin-bottom: 4.4rem;
 }
 
-.btn{
+.btn {
   width: 12.6rem;
   height: 2.9rem;
   background: #787878;
-  border:#787878 ;
+  border: #787878;
   border-radius: 5px;
   color: #fff;
   font-size: 20px;
 }
 
-.btn:hover{
+.btn:hover {
   background: black;
   border: black;
   color: #fff;
 }
 
 /*===============-_SKILLS_-==================*/
-#skills{
-  background: #F3F3F3;
+#skills {
+  background: #f3f3f3;
   width: 100%;
   height: 21.25rem;
 }
 
-#skills .title{
+#skills .title {
   display: flex;
   justify-content: center;
   padding: 1rem;
 }
 
-#skills .title .soft{
+#skills .title .soft {
   margin-right: 10rem;
 }
 
-  h3{
+h3 {
   padding: 0.1rem;
 }
 
-#skills .title .hard{
+#skills .title .hard {
   margin-left: 10rem;
 }
 
-#skills .title .divider{
+#skills .title .divider {
   border: solid 1px #c4c4c4;
   height: 19.5rem;
 }
 
 /*=====BARRA DE SKILLS ANIMAÇÃO=====*/
-.container{
+.container {
   width: 20rem;
   height: 1.5rem;
   background: #c4c4c4;
   border-radius: 5px;
 }
-.container .bar1{
+.container .bar1 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -144,7 +143,7 @@ body {
   width: 100%;
 }
 
-.container .bar2{
+.container .bar2 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -152,7 +151,7 @@ body {
   width: 100%;
 }
 
-.container .bar3{
+.container .bar3 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -160,7 +159,7 @@ body {
   width: 95%;
 }
 
-.container .bar4{
+.container .bar4 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -168,7 +167,7 @@ body {
   width: 75%;
 }
 
-.container .bar5{
+.container .bar5 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -176,7 +175,7 @@ body {
   width: 50%;
 }
 
-.container .bar6{
+.container .bar6 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -184,7 +183,7 @@ body {
   width: 100%;
 }
 
-.container .bar7{
+.container .bar7 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -192,7 +191,7 @@ body {
   width: 90%;
 }
 
-.container .bar8{
+.container .bar8 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -200,7 +199,7 @@ body {
   width: 65%;
 }
 
-.container .bar9{
+.container .bar9 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -208,7 +207,7 @@ body {
   width: 50%;
 }
 
-.container .bar10{
+.container .bar10 {
   height: 1.5rem;
   background: #000000;
   border-radius: 5px;
@@ -216,138 +215,195 @@ body {
   width: 35%;
 }
 
-@keyframes anime1{
-  0% {width: 0%;}
-  100%{width: 100%;}
+@keyframes anime1 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-
-@keyframes anime2{
-  0% {width: 0%;}
-  100%{width: 100%;}
+@keyframes anime2 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-@keyframes anime3{
-  0% {width: 0%;}
-  100%{width: 95%;}
+@keyframes anime3 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
 }
 
-@keyframes anime4{
-  0% {width: 0%;}
-  100%{width: 75%;}
+@keyframes anime4 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
 }
 
-@keyframes anime5{
-  0% {width: 0%;}
-  100%{width: 50%;}
+@keyframes anime5 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
 }
 
-@keyframes anime6{
-  0% {width: 0%;}
-  100%{width: 100%;}
+@keyframes anime6 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
-@keyframes anime7{
-  0% {width: 0%;}
-  100%{width: 90%;}
+@keyframes anime7 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
 }
 
-@keyframes anime8{
-  0% {width: 0%;}
-  100%{width: 65%;}
+@keyframes anime8 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
 }
 
-@keyframes anime9{
-  0% {width: 0%;}
-  100%{width: 50%;}
+@keyframes anime9 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
 }
 
-@keyframes anime10{
-  0% {width: 0%;}
-  100%{width: 35%;}
+@keyframes anime10 {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 35%;
+  }
 }
 
 /*===============-_WORKS_-==================*/
-#works .works-subtitle{
+#works .works-subtitle {
   margin-top: 1.8rem;
   text-decoration: underline;
 }
 
-#works .list-works{
+#works .list-works {
   display: flex;
 }
 
-#works .list-works .work-image{
+#works .list-works .work-image {
   margin-top: 2rem;
 }
 
-#works .list-works .work-image a img{
+#works .list-works .work-image a img {
   width: 19.3rem;
   height: 15.2rem;
   border-radius: 10px;
   box-shadow: 50px -17px 8px -5px #c4c4c4;
 }
 
-#works .title{
+#works .title {
   margin-left: 4rem;
 }
 
-#works .title .time{
+#works .title .time {
   display: flex;
 }
 
-#works .time h5{
+#works .time h5 {
   margin-right: 1rem;
   background-color: #000;
   color: #fff;
-  padding: 0.2rem 1rem 0.2rem 1rem ;
+  padding: 0.2rem 1rem 0.2rem 1rem;
   border-radius: 1rem;
-
 }
 
-#works .time span{
+#works .time span {
   color: #999999;
 }
 
-#works .explication{
-  margin-top: 1.2rem ;
+#works .explication {
+  margin-top: 1.2rem;
 }
 
-#works .divider-horizon{
- height: 3px;
- background: linear-gradient(to right, #000 , #c4c4c4);
- margin:2rem;
- width: 95%;
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: center;
+#works .divider-horizon {
+  height: 3px;
+  background: linear-gradient(to right, #000, #c4c4c4);
+  margin: 2rem;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /*===============-_WORKS_-==================*/
-#end{
+#end {
   margin-top: 7.6rem;
-  background: #F3F3F3;
+  background: #f3f3f3;
   width: 100%;
   height: 11.3rem;
 }
 
-#end p{
+#end p {
   margin: 2rem;
   text-align: center;
 }
 
-#end .networking{
+#end .networking {
   display: flex;
   justify-content: center;
 }
 
-#end .networking a{
+#end .networking a {
   margin-top: 3.3rem;
   margin-left: 2rem;
 }
 
 /*===============-_DATA-ANIMATIONSjs_-==================*/
-[data-animation]{
+[data-animation] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-animationDownload]{
+  opacity: 0;
+  transition: 3s;
+}
+
+[data-animetion="left"]{
+  transform:translate3d(-50px ,0 ,0);
+}
+
+[data-animation="rigth"]{
+  transform: translate3d(50px ,0 ,0);
+}
+
+[data-animation].animation{
   opacity: 1;
+  transform:translate3d(0px, 0px, 0px);
 }
