@@ -1,7 +1,7 @@
-const target = document.querySelectorAll('[data-animation]');
+const target = document.querySelectorAll('[data-animation],[data-animationDownload],[data-animationImg]');
 const animationClass = 'animation';
 const animationClassImg = 'animationImg';
-const animationClassDownload = 'animationDownload';
+const animationClassDownload = 'animationD';
 
 function animeScroll(){
   const windowTop = window.screenY++;
@@ -9,6 +9,7 @@ function animeScroll(){
     if((windowTop) > elt.scrollTop){
       elt.classList.add(animationClass)
       elt.classList.add(animationClassDownload);
+      elt.classList.add(animationClassImg);
     }
   })
 }
