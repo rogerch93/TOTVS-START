@@ -451,11 +451,11 @@ h3 {
 }
 
 [data-animationImgWorks="left"]{
-  transform: translate3d(-50px, 0, 0);
+  transform: translate3d(-50px, 0px, 0px);
 }
 
 [data-animationImgWorks="right"]{
-  transform: translate3d(50px, 0, 0);
+  transform: translate3d(50px, 0px, 0px);
 }
 
 [data-animationImgWorks].animationImgWorks{
