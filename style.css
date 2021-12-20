@@ -419,6 +419,7 @@ h3 {
   transform: translate3d(50px ,0 ,0);
 }
 
+
 [data-animationDownload].animationD{
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
@@ -439,6 +440,25 @@ h3 {
 }
 
 [data-animationImg].animationImg{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/*----------- Works -------------*/
+[data-animationImgWorks]{
+  opacity: 0;
+  transition: 3s;
+}
+
+[data-animationImgWorks="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-animationImgWorks="right"]{
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-animationImgWorks].animationImgWorks{
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }
