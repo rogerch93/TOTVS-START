@@ -92,6 +92,11 @@ body {
   font-size: 20px;
 }
 
+.btn a{
+  color: #ffff;
+  text-decoration: none;
+}
+
 .btn:hover {
   background: black;
   border: black;
@@ -461,4 +466,42 @@ h3 {
 [data-animationImgWorks].animationImgWorks{
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
+}
+/*===============-_BREAKINGPOINTS_-==================*/
+@media (max-width: 989px ) {
+
+  .grid {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+  }
+  #nav .line1,
+.line2 {
+  height: 19px;
+  width: 100%;
+}
+  #nav .navigation ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  #info{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #info .info-text {
+    margin-top: 2.5rem;
+    margin-right: 2.25rem;
+  }
+  
+  #info .info-img {
+    margin-left: 2rem ;
+    margin-right: 2.5rem;
+    margin-top: 2.06rem;
+  }
+
+  #skills {
+    background: #f3f3f3;
+    width: 100%;
+    height: 21.25rem;
+  }
 }
