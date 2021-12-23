@@ -567,4 +567,13 @@ h3 {
   #works .explication {
     margin-top: 0rem;
   }
+
+
+
+  #end {
+    margin-top: 7.6rem;
+    background: #f3f3f3;
+    width: 100%;
+    height: 14.3rem;
+  }
 }
