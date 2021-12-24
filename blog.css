@@ -21,7 +21,7 @@ body {
   width: 100%;
 }
 
-#nav-blog.line1-blog {
+#nav-blog .line1-blog {
   background-color: #646464;
 }
 
@@ -53,4 +53,27 @@ body {
 
 #nav-blog .navigation-blog ul li a:hover {
   color: black;
+}
+
+/*===============-_WORKS_-==================*/
+#end-blog {
+  margin-top: 7.6rem;
+  background: #f3f3f3;
+  width: 100%;
+  height: 11.3rem;
+}
+
+#end-blog p {
+  margin: 2rem;
+  text-align: center;
+}
+
+#end-blog .networking-blog {
+  display: flex;
+  justify-content: center;
+}
+
+#end-blog .networking-blog a {
+  margin-top: 3.3rem;
+  margin-left: 2rem;
 }
