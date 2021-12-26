@@ -41,7 +41,7 @@ const mobileAnimation = 989;
 const mobileFix = window.innerWidth;
 
 function animeMobile(){
-  const windowTop = window.screenY+1;
+  const windowTop = window.screenY++;
   target.forEach(function(elt){
     if((windowTop) > elt.scrollTop){
       elt.classList.add(animationClass)

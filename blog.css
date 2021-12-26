@@ -56,47 +56,47 @@ body {
 }
 
 /*===============-_ABOUTBLOG_-==================*/
-#about-me{
+#about-me {
   margin-top: 2rem;
 }
 
-#about-me .status{
+#about-me .status {
   margin-top: 2rem;
 }
 
-#about-me .dev{
+#about-me .dev {
   margin-bottom: 1rem;
 }
 
-#about-me .dev h3{
-  margin-bottom: .5rem;
+#about-me .dev h3 {
+  margin-bottom: 0.5rem;
 }
 
-#about-me .dev spam{
+#about-me .dev spam {
   color: #9f9f9f;
 }
 
-#about-me .mec{
+#about-me .mec {
   margin-bottom: 1rem;
 }
 
-#about-me .mec h3{
-  margin-bottom: .5rem;
+#about-me .mec h3 {
+  margin-bottom: 0.5rem;
 }
 
-#about-me .mec spam{
+#about-me .mec spam {
   color: #9f9f9f;
 }
 
-#about-me .sold{
+#about-me .sold {
   margin-bottom: 1rem;
 }
 
-#about-me .sold h3{
-  margin-bottom: .5rem;
+#about-me .sold h3 {
+  margin-bottom: 0.5rem;
 }
 
-#about-me .sold spam{
+#about-me .sold spam {
   color: #9f9f9f;
 }
 /*===============-_FOOTERBLOG_-==================*/
@@ -120,4 +120,30 @@ body {
 #end-blog .networking-blog a {
   margin-top: 3.3rem;
   margin-left: 2rem;
+}
+
+@media (max-width: 989px) {
+  .grid {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+  }
+
+  #nav-blog .line1-blog,
+  .line2-blog {
+    height: 19px;
+    width: 100%;
+  }
+  #nav-blog .navigation-blog ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #end-blog {
+    margin-top: 7.6rem;
+    background: #f3f3f3;
+    width: 100%;
+    height: 14.0rem;
+  }
 }

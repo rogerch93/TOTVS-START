@@ -475,16 +475,17 @@ h3 {
     margin-left: 2.25rem;
     margin-right: 2.25rem;
   }
+
   #nav .line1,
-.line2 {
+  .line2 {
   height: 19px;
   width: 100%;
-}
+  }
   #nav .navigation ul{
   width: 100%;
   display: flex;
   justify-content: center;
-}
+  }
 
 
 
@@ -553,6 +554,10 @@ h3 {
     flex-direction: column;
   }
 
+  #works .list-works h3{
+    margin-top: 1rem;
+  }
+
   #works .divider-horizon {
     height: 3px;
     background: linear-gradient(to right, #000, #c4c4c4);
@@ -565,7 +570,8 @@ h3 {
   }
 
   #works .explication {
-    margin-top: 0rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
   }
 
 
