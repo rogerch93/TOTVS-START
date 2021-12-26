@@ -147,3 +147,24 @@ body {
     height: 14.0rem;
   }
 }
+
+/*===============-_DATA-ANIMATIONSjs_-==================*/
+
+/*-----------menu-------------*/
+[data-animationMenu]{
+  opacity:0;
+  transition: 3s;
+}
+
+[data-animationMenu="left"]{
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-aniamtionMenu="rigth"]{
+  transform: translate3d(50px, 0,0);
+}
+
+[data-animationMenu].animationMenu{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}

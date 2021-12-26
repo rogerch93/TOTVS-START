@@ -57,4 +57,9 @@ if(mobileFix <= mobileAnimation){
   })
 }
 
+/*=============PAGINA BLOG========= */
+
+/*animação do menu */
+const menu = document.querySelectorAll('[data-animationMenu]');
+const animationClassMenu = 'animationMenu';
 
