@@ -1,0 +1,56 @@
+/*===============-_RESET_-==================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.grid {
+  margin-left: 9.25rem;
+  margin-right: 9.25rem;
+}
+
+/*===============-_NAV_-==================*/
+#nav-fluig .line1-fluig,
+.line2-fluig {
+  height: 19px;
+  width: 100%;
+}
+
+#nav-fluig .line1-fluig {
+  background-color: #646464;
+}
+
+#nav-fluig .line2-fluig {
+  background-color: #9f9f9f;
+}
+
+#nav-fluig .navigation-fluig {
+  background-color: #f3f3f3;
+  height: 4rem;
+}
+
+#nav-fluig .navigation-fluig ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 8.1rem;
+  list-style: none;
+}
+
+#nav-fluig .navigation-fluig ul li {
+  margin-right: 4rem;
+  margin: 1.3rem;
+}
+
+#nav-fluig .navigation-fluig ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+#nav-fluig .navigation-fluig ul li a:hover {
+  color: black;
+}
