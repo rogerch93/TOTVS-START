@@ -402,7 +402,7 @@ h3 {
   transform:translate3d(-50px ,0 ,0);
 }
 
-[data-animation="rigth"]{
+[data-animation="right"]{
   transform: translate3d(50px ,0 ,0);
 }
 

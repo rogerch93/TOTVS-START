@@ -137,34 +137,33 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    
   }
 
   #end-blog {
     margin-top: 7.6rem;
     background: #f3f3f3;
     width: 100%;
-    height: 14.0rem;
+    height: 14rem;
   }
 }
 
 /*===============-_DATA-ANIMATIONSjs_-==================*/
 
 /*-----------menu-------------*/
-[data-animationMenu]{
-  opacity:0;
+[data-animationBlog] {
+  opacity: 0;
   transition: 3s;
 }
 
-[data-animationMenu="left"]{
-  transform: translate3d(-50px, 0, 0);
+[data-animationBlog="left"] {
+  transform: translate3d(50px ,0, 0);
 }
 
-[data-aniamtionMenu="rigth"]{
-  transform: translate3d(50px, 0,0);
+[data-aniamtionBlog="right"] {
+  transform: translate3d(-50px ,0, 0);
 }
 
-[data-animationMenu].animationMenu{
+[data-animationBlog].animationBlog {
   opacity: 1;
   transform: translate3d(0px, 0px, 0px);
 }

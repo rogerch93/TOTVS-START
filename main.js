@@ -60,6 +60,18 @@ if(mobileFix <= mobileAnimation){
 /*=============PAGINA BLOG========= */
 
 /*animação do menu */
-const menu = document.querySelectorAll('[data-animationMenu]');
-const animationClassMenu = 'animationMenu';
+const menu = document.querySelectorAll('[data-animationBlog]');
+const animationClassBlog = 'animationBlog';
 
+
+function animeBlog(){
+  const windowBlog = window.screenY++;
+  menu.forEach(function(elt){
+    if((windowBlog) >= elt.scrollTop){
+      elt.classList.add(animationClassBlog);
+    }
+  })
+}
+window.addEventListener('mouseout',function(){
+  animeBlog();
+})
