@@ -54,3 +54,26 @@ body {
 #nav-fluig .navigation-fluig ul li a:hover {
   color: black;
 }
+
+/*===============-_FOOTERFLUIG_-==================*/
+#end-fluig {
+  margin-top: 7.6rem;
+  background: #f3f3f3;
+  width: 100%;
+  height: 11.3rem;
+}
+
+#end-fluig p {
+  margin: 2rem;
+  text-align: center;
+}
+
+#end-fluig .networking-fluig {
+  display: flex;
+  justify-content: center;
+}
+
+#end-fluig .networking-fluig a {
+  margin-top: 3.3rem;
+  margin-left: 2rem;
+}
