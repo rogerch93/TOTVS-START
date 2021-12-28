@@ -83,11 +83,9 @@ body {
   width: 681px;
   height: 460px;
   background-color: silver;
-}
-
-#exemplo .video{
   margin-top: 2.8rem;
 }
+
 /*===============-_FOOTERFLUIG_-==================*/
 #end-fluig {
   margin-top: 7.6rem;
@@ -109,4 +107,24 @@ body {
 #end-fluig .networking-fluig a {
   margin-top: 3.3rem;
   margin-left: 2rem;
+}
+
+/*===============-_BREAKINGPOINTS_-==================*/
+@media (max-width:989px){
+  .grid{
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+  }
+  #nav-fluig .navigation-fluig ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #exemplo .video{
+  width: 80%;
+  height: 230px;
+  background-color: silver;
+  margin-top: 2.8rem;
+}
 }
