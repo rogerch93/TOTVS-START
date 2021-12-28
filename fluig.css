@@ -54,7 +54,40 @@ body {
 #nav-fluig .navigation-fluig ul li a:hover {
   color: black;
 }
+/*===============-_EXEMPLO_-==================*/
+#exemplo .title-exemplo h1{
+  margin-top: 2.6rem;
+}
 
+#exemplo .exemplo-subtitle{
+  display: flex;
+  margin-top: 1rem;
+}
+
+#exemplo .exemplo-subtitle span{
+  background: rgb(245, 112, 112);
+  color: #ffff;
+  border-radius: 16px;
+  width: 5rem;
+  height: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top:.1rem;
+  margin-right: 1rem;
+}
+
+#exemplo .explication{
+  margin-top: 1rem;
+}
+
+#exemplo .video{
+  width: 681px;
+  height: 460px;
+  background-color: silver;
+}
+
+#exemplo .video{
+  margin-top: 2.8rem;
+}
 /*===============-_FOOTERFLUIG_-==================*/
 #end-fluig {
   margin-top: 7.6rem;
