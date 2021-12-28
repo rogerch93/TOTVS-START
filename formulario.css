@@ -1,0 +1,262 @@
+/*===============-_RESET_-==================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+.grid {
+  margin-left: 7.25rem;
+  margin-right: 7.25rem;
+}
+
+/*===============-_NAV_-==================*/
+#relatorio .line1-formulario,
+.line2-formulario {
+  height: 19px;
+  width: 100%;
+}
+
+#relatorio .line1-formulario {
+  background-color: #646464;
+}
+
+#relatorio .line2-formulario {
+  background-color: #9f9f9f;
+}
+
+#relatorio .navigation-formulario {
+  background-color: #f3f3f3;
+  height: 4rem;
+}
+
+#relatorio .navigation-formulario ul {
+  display: flex;
+  justify-content: end;
+  margin-right: 8.1rem;
+  list-style: none;
+}
+
+#relatorio .navigation-formulario ul li {
+  margin-right: 4rem;
+  margin: 1.3rem;
+}
+
+#relatorio .navigation-formulario ul li a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+
+#relatorio .navigation-formulario ul li a:hover {
+  color: black;
+}
+
+/*===============-_FORMULARIO_-==================*/
+#form .despesas{
+  margin-top: 3.2rem;
+  background: #F3F3F3;
+  padding: 2.2rem;
+  max-width: 100%;
+  box-shadow: 5px 5px 15px #9f9f9f;
+  border-radius: 5px;
+}
+
+#form .despesas h1{
+  text-align: center;
+  color: #646464;
+}
+
+#form h3{
+  text-align: center;
+  margin-top:2rem ;
+  color: #9f9f9f;
+}
+
+#form .tabela{
+  box-shadow: 5px 5px 15px #9f9f9f;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+#form .tabela form{
+  display: flex;
+  flex-direction: column;
+}
+
+#form .tabela form label{
+  margin-top:1rem;
+  color: #9f9f9f;
+}
+
+#form .tabela form input{
+  height: 2rem;
+  font-size: 20px;
+  font-family: 'Heebo', sans-serif;
+  border: 1px solid #989898;
+  border-radius: 10px;
+  text-align:center ;
+}
+
+/*despesas */
+#form .titulo2{
+  display: grid;
+  justify-content:center
+}
+
+#form .titulo2 h3{
+  position: absolute;
+  margin-left: 37rem;
+}
+
+#form .btn button{
+  background: #71AA70;
+  width: 8.4rem;
+  height: 2rem;
+  margin-top: 2rem;
+  margin-left: 56rem;
+  
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #ffff;
+  border-color:#71AA70;
+  
+}
+
+#form .tabela .labels{
+  display: flex;
+  margin-left: 4rem;
+  color: #9f9f9f;
+}
+
+#form .tabela .labels .p1{
+  margin-right: 10rem;
+}
+
+#form .tabela .labels .p2{
+  margin-right: 11rem;
+}
+
+#form .tabela .labels .p3{
+  margin-right: 3.2rem;
+}
+
+#form .tabela .labels .p4{
+  margin-right: 4.3rem;
+}
+
+#form .tabela-vlr button{
+  width: 2.5rem;
+  height: 2rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius:10px;
+  background: #D45757;
+  border-color: #D45757;
+  color: #ffff;
+}
+
+#form .tabela-vlr select{
+  width: 7,4rem;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .descricao{
+  width: 20rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .uni{
+  width: 7rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .qnt{
+  width: 7rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .total{
+  width: 8rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background:  #F3F3F3;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+
+#form .geral{
+  display: flex;
+  margin-left: 38rem;
+  margin-top: 2rem;
+}
+
+#form .geral h2{
+  color: #9f9f9f;
+  margin-right: 1rem;
+}
+
+#form .geral input{
+  width: 11rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background:  #F3F3F3;
+  border-radius:10px;
+  border: 1px solid #989898;
+}
+/*===============-_FOOTERFLUIG_-==================*/
+#end-formulario {
+  margin-top: 7.6rem;
+  background: #f3f3f3;
+  width: 100%;
+  height: 11.3rem;
+}
+
+#end-formulario p {
+  margin: 2rem;
+  text-align: center;
+}
+
+#end-formulario .networking-formulario {
+  display: flex;
+  justify-content: center;
+}
+
+#end-formulario .networking-formulario a {
+  margin-top: 3.3rem;
+  margin-left: 2rem;
+}

@@ -7,7 +7,7 @@ const animationClassDownload = 'animationD';
 function animeMouse(){
   const windowTop = window.screenY++;
   target.forEach(function(elt){
-    if((windowTop) > elt.scrollTop){
+    if((windowTop) >= elt.scrollTop){
       elt.classList.add(animationClass)
       elt.classList.add(animationClassDownload);
       elt.classList.add(animationClassImg);
@@ -15,7 +15,7 @@ function animeMouse(){
   })
 }
 
-window.addEventListener('mouseout', function(){
+window.addEventListener('load', function(){
   animeMouse();
 })
 
@@ -43,7 +43,7 @@ const mobileFix = window.innerWidth;
 function animeMobile(){
   const windowTop = window.screenY++;
   target.forEach(function(elt){
-    if((windowTop) > elt.scrollTop){
+    if((windowTop) >= elt.scrollTop){
       elt.classList.add(animationClass)
       elt.classList.add(animationClassDownload);
       elt.classList.add(animationClassImg);
@@ -52,7 +52,7 @@ function animeMobile(){
 }
 
 if(mobileFix <= mobileAnimation){
-  window.addEventListener('scroll',function(){
+  window.addEventListener('load',function(){
     animeMobile();
   })
 }
@@ -72,6 +72,6 @@ function animeBlog(){
     }
   })
 }
-window.addEventListener('mouseout',function(){
+window.addEventListener('load',function(){
   animeBlog();
 })
