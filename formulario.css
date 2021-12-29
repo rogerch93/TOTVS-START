@@ -98,7 +98,7 @@ body {
   font-family: 'Heebo', sans-serif;
   border: 1px solid #989898;
   border-radius: 10px;
-  text-align:center ;
+  padding-left: 1rem;
 }
 
 /*despesas */
@@ -165,6 +165,7 @@ body {
   width: 7,4rem;
   height: 2rem;
   margin-left: 1rem;
+  padding-left: 1rem;
   margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -176,6 +177,7 @@ body {
 #form .tabela-vlr .descricao{
   width: 20rem;
   height: 2rem;
+  padding-left: 1rem;
   margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -187,6 +189,7 @@ body {
 #form .tabela-vlr .uni{
   width: 7rem;
   height: 2rem;
+  padding-left: 1rem;
   margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -198,6 +201,7 @@ body {
 #form .tabela-vlr .qnt{
   width: 7rem;
   height: 2rem;
+  padding-left: 1rem;
   margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -209,6 +213,7 @@ body {
 #form .tabela-vlr .total{
   width: 8rem;
   height: 2rem;
+  padding-left: 1rem;
   margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -233,11 +238,80 @@ body {
   height: 2rem;
   margin-right: 1.2rem;
   font-size: 15px;
+  padding-left: 1rem;
   font-family: 'Heebo', sans-serif;
   background:  #F3F3F3;
   border-radius:10px;
   border: 1px solid #989898;
 }
+
+#form .acoes{
+  height: 6.6rem;
+  width: 15%;
+  margin-top: 2.8rem;
+  background: #C4C4C4;
+  color: #ffff;
+  border-radius: 10px;
+}
+
+#form .acoes h2{
+ padding: 2rem;
+  width: 20%;
+  
+}
+
+#form .aco{
+  margin-top: 2.8rem;
+  display: flex;
+  background: #ffff;
+}
+
+#form .aco .btns{
+  margin-top: 2.8rem;
+  width: 61rem;
+  height: 6.6rem;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  margin-left: -1rem;
+}
+
+#form .aco .btns .btn-y{
+  width: 13rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-family: 'Heebo', sans-serif;
+  color: #ffff;
+  background: #EEB764;
+  border-color: #EEB764;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#form .aco .btns .btn-r{
+  width: 13rem;
+  height: 3rem;
+  margin-right: 2rem;
+  font-family: 'Heebo', sans-serif;
+  color: #ffff;
+  background: #D45757;
+  border-color: #D45757;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#form .aco .btns .btn-g{
+  width: 13rem;
+  height: 3rem;
+  font-family: 'Heebo', sans-serif;
+  color: #ffff;
+  background: #71AA70;
+  border-color: #71AA70;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
 /*===============-_FOOTERFLUIG_-==================*/
 #end-formulario {
   margin-top: 7.6rem;
