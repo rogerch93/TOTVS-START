@@ -56,45 +56,45 @@ body {
 }
 
 /*===============-_FORMULARIO_-==================*/
-#form .despesas{
+#form .despesas {
   margin-top: 3.2rem;
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding: 2.2rem;
   max-width: 100%;
   box-shadow: 5px 5px 15px #9f9f9f;
   border-radius: 5px;
 }
 
-#form .despesas h1{
+#form .despesas h1 {
   text-align: center;
   color: #646464;
 }
 
-#form h3{
+#form h3 {
   text-align: center;
-  margin-top:2rem ;
+  margin-top: 2rem;
   color: #9f9f9f;
 }
 
-#form .tabela{
+#form .tabela {
   box-shadow: 5px 5px 15px #9f9f9f;
   padding: 2rem;
   border-radius: 10px;
 }
 
-#form .tabela form{
+#form .tabela form {
   display: flex;
   flex-direction: column;
 }
 
-#form .tabela form label{
-  margin-top:1rem;
+#form .tabela form label {
+  margin-top: 1rem;
   color: #9f9f9f;
 }
 
-#form .tabela form input{
+#form .tabela form input {
   height: 2rem;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Heebo', sans-serif;
   border: 1px solid #989898;
   border-radius: 10px;
@@ -102,212 +102,143 @@ body {
 }
 
 /*despesas */
-#form .titulo2{
+#form .titulo2 {
   display: grid;
-  justify-content:center
+  justify-content: center;
 }
 
-#form .titulo2 h3{
+#form .titulo2 h3 {
   position: absolute;
   margin-left: 37rem;
 }
 
-#form .btn button{
-  background: #71AA70;
+#form .btn button {
+  background: #71aa70;
   width: 8.4rem;
   height: 2rem;
   margin-top: 2rem;
   margin-left: 56rem;
-  
+
   border-radius: 8px;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: bolder;
   color: #ffff;
-  border-color:#71AA70;
-  
+  border-color: #71aa70;
 }
 
-#form .tabela .labels{
-  display: flex;
-  margin-left: 4rem;
-  color: #9f9f9f;
+#form .tabela-vlr{
+  width: 100%;
 }
 
-#form .tabela .labels .p1{
-  margin-right: 10rem;
-}
-
-#form .tabela .labels .p2{
-  margin-right: 11rem;
-}
-
-#form .tabela .labels .p3{
-  margin-right: 3.2rem;
-}
-
-#form .tabela .labels .p4{
-  margin-right: 4.3rem;
-}
-
-#form .tabela-vlr button{
+#form .tabela-vlr button {
   width: 2.5rem;
   height: 2rem;
   font-weight: bolder;
   font-size: 1rem;
-  border-radius:10px;
-  background: #D45757;
-  border-color: #D45757;
+  border-radius: 10px;
+  background: #d45757;
+  border-color: #d45757;
   color: #ffff;
 }
 
 #form .tabela-vlr select{
-  width: 7,4rem;
   height: 2rem;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  margin-right: 1.2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
-  background: #ffff;
-  border-radius:10px;
+  background:#ffff;
   border: 1px solid #989898;
-}
-
-#form .tabela-vlr .descricao{
-  width: 20rem;
-  height: 2rem;
-  padding-left: 1rem;
-  margin-right: 1.2rem;
+  border-radius: 10px;height: 2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
-  background: #ffff;
-  border-radius:10px;
   border: 1px solid #989898;
+  border-radius: 10px;
 }
 
-#form .tabela-vlr .uni{
-  width: 7rem;
-  height: 2rem;
-  padding-left: 1rem;
-  margin-right: 1.2rem;
-  font-size: 15px;
-  font-family: 'Heebo', sans-serif;
-  background: #ffff;
-  border-radius:10px;
-  border: 1px solid #989898;
-}
-
-#form .tabela-vlr .qnt{
-  width: 7rem;
-  height: 2rem;
-  padding-left: 1rem;
-  margin-right: 1.2rem;
-  font-size: 15px;
-  font-family: 'Heebo', sans-serif;
-  background: #ffff;
-  border-radius:10px;
-  border: 1px solid #989898;
-}
-
-#form .tabela-vlr .total{
-  width: 8rem;
-  height: 2rem;
-  padding-left: 1rem;
-  margin-right: 1.2rem;
-  font-size: 15px;
-  font-family: 'Heebo', sans-serif;
-  background:  #F3F3F3;
-  border-radius:10px;
-  border: 1px solid #989898;
-}
-
-#form .geral{
+#form .geral {
   display: flex;
   margin-left: 38rem;
   margin-top: 2rem;
 }
 
-#form .geral h2{
-  color: #9f9f9f;
-  margin-right: 1rem;
-}
-
-#form .geral input{
+#form .geral input {
   width: 11rem;
   height: 2rem;
   margin-right: 1.2rem;
   font-size: 15px;
   padding-left: 1rem;
   font-family: 'Heebo', sans-serif;
-  background:  #F3F3F3;
-  border-radius:10px;
+  background: #f3f3f3;
+  border-radius: 10px;
   border: 1px solid #989898;
 }
 
-#form .acoes{
+#form .mobile{
+ visibility: hidden ;
+}
+
+#form .acoes {
   height: 6.6rem;
   width: 15%;
   margin-top: 2.8rem;
-  background: #C4C4C4;
+  background: #c4c4c4;
   color: #ffff;
   border-radius: 10px;
 }
 
-#form .acoes h2{
- padding: 2rem;
+#form .acoes h2 {
+  padding: 2rem;
   width: 20%;
-  
 }
 
-#form .aco{
+#form .aco {
   margin-top: 2.8rem;
   display: flex;
   background: #ffff;
 }
 
-#form .aco .btns{
+#form .aco .btns {
   margin-top: 2.8rem;
   width: 61rem;
   height: 6.6rem;
   padding: 2rem;
   border-radius: 10px;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   margin-left: -1rem;
 }
 
-#form .aco .btns .btn-y{
+#form .aco .btns .btn-y {
   width: 13rem;
   height: 3rem;
   margin-left: 2rem;
   margin-right: 2rem;
   font-family: 'Heebo', sans-serif;
   color: #ffff;
-  background: #EEB764;
-  border-color: #EEB764;
+  background: #eeb764;
+  border-color: #eeb764;
   border-radius: 10px;
   font-size: 20px;
 }
 
-#form .aco .btns .btn-r{
+#form .aco .btns .btn-r {
   width: 13rem;
   height: 3rem;
   margin-right: 2rem;
   font-family: 'Heebo', sans-serif;
   color: #ffff;
-  background: #D45757;
-  border-color: #D45757;
+  background: #d45757;
+  border-color: #d45757;
   border-radius: 10px;
   font-size: 20px;
 }
 
-#form .aco .btns .btn-g{
+#form .aco .btns .btn-g {
   width: 13rem;
   height: 3rem;
   font-family: 'Heebo', sans-serif;
   color: #ffff;
-  background: #71AA70;
-  border-color: #71AA70;
+  background: #71aa70;
+  border-color: #71aa70;
   border-radius: 10px;
   font-size: 20px;
 }
@@ -333,4 +264,104 @@ body {
 #end-formulario .networking-formulario a {
   margin-top: 3.3rem;
   margin-left: 2rem;
+}
+
+@media (max-width: 989px) {
+  .grid {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  #relatorio .navigation-formulario ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #form .titulo2 {
+    display: grid;
+    justify-content: center;
+  }
+
+  #form .titulo2 h3 {
+    margin-left: 1.25rem;
+  }
+
+  #form .btn button {
+    background: #71aa70;
+    width: 8.4rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 14rem;
+
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #ffff;
+    border-color: #71aa70;
+  }
+
+  #form .tabela {
+    box-shadow: 5px 5px 15px #9f9f9f;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+  #form .aco {
+    margin-top: 2.8rem;
+    display: flex;
+    background: #ffff;
+    visibility: hidden;
+  }
+
+  #form .mobile{
+    visibility: visible;
+    display: flex;
+  
+    margin-top: 2rem;
+  }
+
+  #form .mobile .btn-ym {
+    width: 8rem;
+    height: 3rem;
+    margin-left: .5rem;
+    margin-right: 1rem;
+    font-family: 'Heebo', sans-serif;
+    color: #ffff;
+    background: #eeb764;
+    border-color: #eeb764;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  #form .mobile .btn-rm {
+    width: 8rem;
+    height: 3rem;
+    margin-right: 1rem;
+    font-family: 'Heebo', sans-serif;
+    color: #ffff;
+    background: #d45757;
+    border-color: #d45757;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  #form .mobile .btn-gm {
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Heebo', sans-serif;
+    color: #ffff;
+    background: #71aa70;
+    border-color: #71aa70;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  #end-formulario {
+    margin-top: 1rem;
+    background: #f3f3f3;
+    width: 100%;
+    height: 14rem;
+  }
 }
