@@ -74,4 +74,9 @@ function animeBlog(){
 }
 window.addEventListener('load',function(){
   animeBlog();
-})
+});
+
+/*Validadção de formulario */
+function enviar(){
+  
+}

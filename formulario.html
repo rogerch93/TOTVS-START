@@ -1,147 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="formulario.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap" rel="stylesheet"> 
-  <title>Formulário</title>
-</head>
-<body>
-  <header id="relatorio">
-    <div class="line1-formulario"></div>
-    <div class="line2-formulario"></div>
-    <nav class="navigation-formulario">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="formulario.html">Formulario</a></li>
-        <li><a href="fluig.html">Fluig</a></li>
-        <li><a href="blog.html">Sobre</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section id="form">
-    <div class="despesas grid">
-      <h1>Relatório de Despesas</h1>
-    </div>
-    <div class="titulo">
-      <h3>Solicitante</h3>
-    </div>
-    <div class="tabela grid">
-      <form action="" method="">
-        <label for="">Solicitante</label>
-        <input type="text" name="solicitante" required>
-        <label for="">Email</label>
-        <input type="email" name="email"
-        required>
-        <label for="">Empresa</label>
-        <input type="text" name="empresa"
-        required>
-        <label for="">Área</label>
-        <input type="text" name="area"
-        required>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header id="relatorio">
+      <div class="line1-formulario"></div>
+      <div class="line2-formulario"></div>
+      <nav class="navigation-formulario">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="formulario.html">Formulario</a></li>
+          <li><a href="fluig.html">Fluig</a></li>
+          <li><a href="blog.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="form">
+      <div class="despesas grid">
+        <h1>Relatório de Despesas</h1>
+      </div>
+      
+      <form action="" class="">
+        <div class="titulo">
+          <h3>Solicitante</h3>
+        </div>
+        <div class="tabela grid">
+          <label for="">Solicitante</label>
+          <input type="text">
+          <label for="">Email</label>
+          <input type="email">
+          <label for="">Empresa</label>
+          <input type="text">
+          <label for="">Área</label>
+          <input type="text">
+        </div>
+        <div class="tituloD">
+          <h3>Despesas</h3>
+          <button class="btn"> + Incluir</button>
+        </div>
+        <div class="tabela grid ">
+          <div class="titulo">
+            <label class="cat" for="">Categoria</label>
+            <label class="des" for="">Descrição</label>
+            <label class="vlrUni" for="">Vlr.Unitário</label>
+            <label class="qtn" for="">Quantidade</label>
+            <label class="vlrTotal" for="">Vlr.Total</label>
+          </div>
+          <div class="tabela-vlr">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+
+          </div>
+          <div class="tabela-vlr" style="margin-top: 2rem;">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+            
+          </div>
+          <div class="tabela-vlr" style="margin-top: 2rem;">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+            
+          </div>
+          <div class="tabela-vlr" style="margin-top: 2rem;">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+            
+          </div>
+          <div class="tabela-vlr" style="margin-top: 2rem;">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+            
+          </div>
+          <div class="tabela-vlr" style="margin-top: 2rem;">
+            <button>X</button>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+           
+            <input class="descricao" type="text" required />
+            
+            <input class="uni" type="number" required />
+            
+            <input class="qnt" type="number" required />
+            
+            <input class="total" type="number" required readonly />
+            
+          </div>
+          <div class="geral">
+            <label for=""><h2>Total Geral</h2></label>
+            <input type="text" name="" id="">
+          </div>
+        </div>
+        <div class="mobile grid">
+          <button class="btn-ym">Limpar</button>
+            <button class="btn-rm">Cancelar</button>
+            <button class="btn-gm">Enviar</button>
+        </div>
+        <div class="aco  grid">
+          <div class="acoes">
+            <h2>Ações</h2>
+          </div>
+          <div class="btns">
+            <button class="btn-y">Limpar</button>
+            <button class="btn-r">Cancelar</button>
+            <button class="btn-g">Enviar</button>
+          </div>
+        </div>
       </form>
-    </div>
-    <div class="titulo2">
-      <h3>Despesas</h3>
-      <div class="btn">
-        <button > + Incluir </button>
+
+    </section>
+    <footer id="end-formulario">
+      <div class="networking-formulario">
+        <a href="https://www.linkedin.com/in/rogerio-chaves-5437871a6/">
+          <i><img src="icons/linkedin.png" alt="" /></i>
+        </a>
+        <a href="https://github.com/rogerch93">
+          <i><img src="icons/Vector.png" alt="" /></i>
+        </a>
+        <a
+          href="https://wa.me/+5519997441168?text=Eu%20tenho%20interesse%20no%20seu%20trabalho%20como%20desenvolvedor"
+        >
+          <i><img src="icons/whatsapp.png" alt="" /></i>
+        </a>
       </div>
-    </div>
-    <div class="tabela grid">
-      <div class="tabela-vlr">
-        <form action="">
-          <button>X</button>
-          <label for="">Categoria</label>
-          <select name="" id="">
-            <option value="">Pedagio</option>
-            <option value="">Hospedagem</option>
-            <option value="">Combustivel</option>
-            <option value="">Alimentação</option>
-            <option value="">Outros</option>
-          </select>
-          <label for="">Descrição</label>
-          <input class="descricao" type="text" required>
-          <label for="">Unidade</label>
-          <input class="uni" type="number"required>
-          <label for="">Quantidade</label>
-          <input class="qnt" type="number"required>
-          <label for="">Total</label>
-          <input class="total" type="number"required>
-          <label for="">Total Geral</label>
-          <input type="number" readonly>
-        </form>
-        <form action="">
-          <button style="margin-top: 2rem;">X</button>
-          <label for="">Categoria</label>
-          <select name="" id="">
-            <option value="">Pedagio</option>
-            <option value="">Hospedagem</option>
-            <option value="">Combustivel</option>
-            <option value="">Alimentação</option>
-            <option value="">Outros</option>
-          </select>
-          <label for="">Descrição</label>
-          <input class="descricao" type="text" required>
-          <label for="">Unidade</label>
-          <input class="uni" type="number"required>
-          <label for="">Quantidade</label>
-          <input class="qnt" type="number"required>
-          <label for="">Total</label>
-          <input class="total" type="number"required>
-          <label for="">Total Geral</label>
-          <input type="number" readonly>
-        </form>
-        <form action="">
-          <button style="margin-top: 2rem;">X</button>
-          <label for="">Categoria</label>
-          <select name="" id="">
-            <option value="">Pedagio</option>
-            <option value="">Hospedagem</option>
-            <option value="">Combustivel</option>
-            <option value="">Alimentação</option>
-            <option value="">Outros</option>
-          </select>
-          <label for="">Descrição</label>
-          <input class="descricao" type="text" required>
-          <label for="">Unidade</label>
-          <input class="uni" type="number"required>
-          <label for="">Quantidade</label>
-          <input class="qnt" type="number"required>
-          <label for="">Total</label>
-          <input class="total" type="number"required>
-          <label for="">Total Geral</label>
-          <input type="number" readonly>
-        </form>   
-      </div>
-    </div>
-    <div class="mobile grid">
-      <button class="btn-ym">Limpar</button>
-      <button class="btn-rm">Cancelar</button>
-      <button class="btn-gm">Enviar</button>
-    </div>
-    <div class="aco tabela grid">
-      <div class="acoes ">
-        <h2>Ações</h2>
-      </div>
-      <div class="btns">
-        <button class="btn-y">Limpar</button>
-        <button class="btn-r">Cancelar</button>
-        <button class="btn-g">Enviar</button>
-      </div>
-    </div>
-    
-  </section>
-  <footer id="end-formulario">
-    <div class="networking-formulario">
-      <a href="https://www.linkedin.com/in/rogerio-chaves-5437871a6/"><i><img src="icons/linkedin.png" alt=""></i></a>
-      <a href="https://github.com/rogerch93"><i><img src="icons/Vector.png" alt=""></i></a>
-      <a href="https://wa.me/+5519997441168?text=Eu%20tenho%20interesse%20no%20seu%20trabalho%20como%20desenvolvedor"><i><img src="icons/whatsapp.png" alt=""></i></a>
-    </div>
-    <p>&copy; 2021 Rogerio Chaves todos os direitos reservados </p>
-  </footer>
-</body>
+      <p>&copy; 2021 Rogerio Chaves todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>

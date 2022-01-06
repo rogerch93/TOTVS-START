@@ -10,8 +10,8 @@ body {
 }
 
 .grid {
-  margin-left: 7.25rem;
-  margin-right: 7.25rem;
+  margin-left: 9.25rem;
+  margin-right: 9.25rem;
 }
 
 /*===============-_NAV_-==================*/
@@ -56,6 +56,16 @@ body {
 }
 
 /*===============-_FORMULARIO_-==================*/
+#form .tituloD{
+  display: flex;
+  justify-content: center;
+}
+
+#form .tituloD h3{
+  margin-left: 29rem;
+  margin-right: -10rem;
+}
+
 #form .despesas {
   margin-top: 3.2rem;
   background: #f3f3f3;
@@ -78,21 +88,21 @@ body {
 
 #form .tabela {
   box-shadow: 5px 5px 15px #9f9f9f;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 10px;
 }
 
-#form .tabela form {
+#form .tabela {
   display: flex;
   flex-direction: column;
 }
 
-#form .tabela form label {
+#form .tabela label {
   margin-top: 1rem;
   color: #9f9f9f;
 }
 
-#form .tabela form input {
+#form .tabela input {
   height: 2rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
@@ -102,6 +112,19 @@ body {
 }
 
 /*despesas */
+#form .titulo .cat{
+  margin-left: 3rem;
+}
+
+#form .titulo .des{
+  margin-left: 4rem;
+  margin-right: 16rem;
+}
+
+#form .titulo .qtn{
+  margin-left: 3.2rem;
+  margin-right: 3rem;
+}
 #form .titulo2 {
   display: grid;
   justify-content: center;
@@ -112,12 +135,12 @@ body {
   margin-left: 37rem;
 }
 
-#form .btn button {
+#form .btn {
   background: #71aa70;
   width: 8.4rem;
   height: 2rem;
   margin-top: 2rem;
-  margin-left: 56rem;
+  margin-left: 28.5rem;
 
   border-radius: 8px;
   margin-bottom: 1rem;
@@ -129,11 +152,13 @@ body {
 
 #form .tabela-vlr{
   width: 100%;
+  display: flex;
 }
 
 #form .tabela-vlr button {
   width: 2.5rem;
   height: 2rem;
+  margin-right: .5rem;
   font-weight: bolder;
   font-size: 1rem;
   border-radius: 10px;
@@ -144,6 +169,7 @@ body {
 
 #form .tabela-vlr select{
   height: 2rem;
+  margin-right: 1.3rem;
   font-size: 15px;
   font-family: 'Heebo', sans-serif;
   background:#ffff;
@@ -155,22 +181,48 @@ body {
   border-radius: 10px;
 }
 
+#form .tabela-vlr .descricao{
+  margin-right: 1.3rem;
+  width: 20rem;
+}
+
+#form .tabela-vlr .uni{
+  margin-right: 1.3rem;
+  width: 7rem;
+}
+
+#form .tabela-vlr .qnt{
+  margin-right: 1.3rem;
+  width: 7rem;
+}
+
+#form .tabela-vlr .total{
+  margin-right: 1.3rem;
+  width: 7rem;
+  background: #f3f3f3;
+}
+
 #form .geral {
   display: flex;
-  margin-left: 38rem;
+  margin-left: 37rem;
   margin-top: 2rem;
 }
 
 #form .geral input {
   width: 11rem;
   height: 2rem;
-  margin-right: 1.2rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
   font-size: 15px;
   padding-left: 1rem;
   font-family: 'Heebo', sans-serif;
   background: #f3f3f3;
   border-radius: 10px;
   border: 1px solid #989898;
+}
+
+#form .geral label{
+  margin-right: 1rem;
 }
 
 #form .mobile{
@@ -197,7 +249,7 @@ body {
   background: #ffff;
 }
 
-#form .aco .btns {
+#form .btns {
   margin-top: 2.8rem;
   width: 61rem;
   height: 6.6rem;
@@ -207,7 +259,7 @@ body {
   margin-left: -1rem;
 }
 
-#form .aco .btns .btn-y {
+#form .btns .btn-y {
   width: 13rem;
   height: 3rem;
   margin-left: 2rem;
@@ -220,7 +272,7 @@ body {
   font-size: 20px;
 }
 
-#form .aco .btns .btn-r {
+#form .btns .btn-r {
   width: 13rem;
   height: 3rem;
   margin-right: 2rem;
@@ -232,7 +284,7 @@ body {
   font-size: 20px;
 }
 
-#form .aco .btns .btn-g {
+#form .btns .btn-g {
   width: 13rem;
   height: 3rem;
   font-family: 'Heebo', sans-serif;

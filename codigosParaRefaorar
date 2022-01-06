@@ -1,0 +1,143 @@
+<div class="tabela grid">
+        <form action="" method="">
+          <label for="">Solicitante</label>
+          <input type="text" name="solicitante" required />
+          <label for="">Email</label>
+          <input type="email" name="email" required />
+          <label for="">Empresa</label>
+          <input type="text" name="empresa" required />
+          <label for="">Área</label>
+          <input type="text" name="area" required />
+        </form>
+      </div>
+      <div class="titulo2">
+        <h3>Despesas</h3>
+        <form action="">
+          <div class="btn">
+            <button>+ Incluir</button>
+          </div>
+        </form>
+        
+      </div>
+      <div class="tabela grid">
+        <div class="tabela-vlr">
+          <form action="">
+            <button>X</button>
+            <label for="">Categoria</label>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+            <label for="">Descrição</label>
+            <input class="descricao" type="text" required />
+            <label for="">Unidade</label>
+            <input class="uni" type="number" required />
+            <label for="">Quantidade</label>
+            <input class="qnt" type="number" required />
+            <label for="">Total</label>
+            <input class="total" type="number" required />
+            <label for="">Total Geral</label>
+            <input type="number" readonly />
+          
+            <button style="margin-top: 2rem;">X</button>
+            <label for="">Categoria</label>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+            <label for="">Descrição</label>
+            <input class="descricao" type="text" required />
+            <label for="">Unidade</label>
+            <input class="uni" type="number" required />
+            <label for="">Quantidade</label>
+            <input class="qnt" type="number" required />
+            <label for="">Total</label>
+            <input class="total" type="number" required />
+            <label for="">Total Geral</label>
+            <input type="number" readonly />
+         
+            <button style="margin-top: 2rem;">X</button>
+            <label for="">Categoria</label>
+            <select name="" id="">
+              <option value="">Pedagio</option>
+              <option value="">Hospedagem</option>
+              <option value="">Combustivel</option>
+              <option value="">Alimentação</option>
+              <option value="">Outros</option>
+            </select>
+            <label for="">Descrição</label>
+            <input class="descricao" type="text" required />
+            <label for="">Unidade</label>
+            <input class="uni" type="number" required />
+            <label for="">Quantidade</label>
+            <input class="qnt" type="number" required />
+            <label for="">Total</label>
+            <input class="total" type="number" required />
+            <label for="">Total Geral</label>
+            <input type="number" readonly />
+#form .tabela-vlr select {
+  width: 7,4rem;
+  height: 2rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius: 10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .descricao {
+  width: 20rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius: 10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .uni {
+  width: 7rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius: 10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .qnt {
+  width: 7rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #ffff;
+  border-radius: 10px;
+  border: 1px solid #989898;
+}
+
+#form .tabela-vlr .total {
+  width: 8rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-right: 1.2rem;
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  background: #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid #989898;
+}
